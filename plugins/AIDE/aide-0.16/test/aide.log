@@ -1,0 +1,97 @@
+gcry_md_enable 7 failedStart timestamp: 2018-11-14 18:18:26 +0800 (AIDE 0.16)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	12929
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		10
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc.. : /dev
+d = ... mc.. : /etc/cups
+f < ... mc..C: /etc/cups/subscriptions.conf
+f < ... mc..C: /etc/cups/subscriptions.conf.O
+d = ... mc.. : /etc/vmware-tools
+d = ... mc.n : /proc
+d = ... mc.. : /root/.gconf
+d < ... mc.n : /run
+d = ... mc.. : /sys
+d = ... mc.. : /var
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /dev
+  Mtime    : 2018-11-13 10:26:37 +0800        | 2018-11-14 17:27:47 +0800
+  Ctime    : 2018-11-13 10:26:37 +0800        | 2018-11-14 17:27:47 +0800
+
+Directory: /etc/cups
+  Mtime    : 2018-11-13 18:14:02 +0800        | 2018-11-14 17:33:09 +0800
+  Ctime    : 2018-11-13 18:14:02 +0800        | 2018-11-14 17:33:09 +0800
+
+File: /etc/cups/subscriptions.conf
+  Size     : 683                              | 384
+  Mtime    : 2018-11-13 18:14:02 +0800        | 2018-11-14 17:33:08 +0800
+  Ctime    : 2018-11-13 18:14:02 +0800        | 2018-11-14 17:33:09 +0800
+  SHA512   : ZLxcP8W1uvOcF+aR7HswUeYKuPqaxeQT | ORLts3ZGQTqFkguruvJ1vZ52vQUEXMEM
+             tF3bqORatdTfcexVSxuTc+ifZXbThm32 | f1/JQegtWm+lNMoBUXvo4AZOVC+bx/Qy
+             2VA4IKtuKe03FbAq/Y2ylw==         | 0+Hdi/ND0uRU3ocfOdrF1Q==
+
+File: /etc/cups/subscriptions.conf.O
+  Size     : 683                              | 92
+  Mtime    : 2018-11-13 17:15:42 +0800        | 2018-11-14 17:32:37 +0800
+  Ctime    : 2018-11-13 18:14:02 +0800        | 2018-11-14 17:33:09 +0800
+  SHA512   : DjcVk5weBNiJZmSypjvB61RvN/nfEddR | +3EXwLePcgdN4PR9GAfWquuRNSjs1R6T
+             AtfJSxKJ2rdFCD1vYXdv3NYnNpt/sM/f | jQzdAc66+lq+X3kjoLMA2GirAFFsleWn
+             BQxbtRTcNZVxRJy+FYVuqw==         | kcyBvwjPLXRgRSfrjKXbLA==
+
+Directory: /etc/vmware-tools
+  Mtime    : 2018-11-13 10:26:30 +0800        | 2018-11-14 17:27:39 +0800
+  Ctime    : 2018-11-13 10:26:30 +0800        | 2018-11-14 17:27:39 +0800
+
+Directory: /proc
+  Mtime    : 2018-11-13 10:26:20 +0800        | 2018-11-14 17:27:29 +0800
+  Ctime    : 2018-11-13 10:26:20 +0800        | 2018-11-14 17:27:29 +0800
+  Linkcount: 271                              | 219
+
+Directory: /root/.gconf
+  Mtime    : 2018-11-13 10:26:30 +0800        | 2018-11-14 17:27:40 +0800
+  Ctime    : 2018-11-13 10:26:30 +0800        | 2018-11-14 17:27:40 +0800
+
+Directory: /run
+  Size     : 1260                             | 1240
+  Mtime    : 2018-11-13 17:44:20 +0800        | 2018-11-14 17:32:38 +0800
+  Ctime    : 2018-11-13 17:44:20 +0800        | 2018-11-14 17:32:38 +0800
+  Linkcount: 37                               | 36
+
+Directory: /sys
+  Mtime    : 2018-11-13 10:48:37 +0800        | 2018-11-14 17:27:31 +0800
+  Ctime    : 2018-11-13 10:48:37 +0800        | 2018-11-14 17:27:31 +0800
+
+Directory: /var
+  Mtime    : 2017-11-24 21:13:00 +0800        | 2018-11-13 18:41:39 +0800
+  Ctime    : 2018-09-28 19:17:10 +0800        | 2018-11-13 18:41:39 +0800
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/usr/local/etc/aideDB/aide.db
+  MD5      : uDFF9FeDaywoaHinW/suog==
+  SHA1     : w4jGg1GRVuy1d/tmGspDSpSwex8=
+  RMD160   : KY9ZBikmOotJqrKCmlEp5bK07cQ=
+  TIGER    : Qjlrx/voKyvrFwVT5aa99zHZQxRqCuzf
+  SHA256   : zI3SgCInZGZInz+Nvxaw/obOapGECqDx
+             /bwhHlPLpsQ=
+  SHA512   : VYRVO+HHeRqnWIdeMJ5Bx974TOSMTzpc
+             TSsxeE1+P+G4mqAknLOSoFP+6OwXOtoZ
+             ELYqpoVMPbRKz6H0H2SNow==
+
+
+End timestamp: 2018-11-14 18:18:28 +0800 (run time: 0m 2s)
